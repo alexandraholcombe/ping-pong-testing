@@ -4,7 +4,7 @@ namespace PingPong
   {
     public bool IsPingPong(int number)
     {
-      return false;
+      return number % 15 == 0;
     }
   }
 }
