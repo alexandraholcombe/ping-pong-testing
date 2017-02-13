@@ -2,9 +2,13 @@ namespace PingPong
 {
   public class PingPong
   {
-    public bool IsPingPong(int number)
+    public string IsPingPong(int number)
     {
-      return number % 15 == 0;
+      if (number % 15 == 0)
+      {
+        return "ping-pong";
+      }
+      return null;
     }
   }
 }

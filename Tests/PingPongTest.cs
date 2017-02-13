@@ -4,10 +4,10 @@ namespace PingPong
   public class PingPongTest
   {
     [Fact]
-    public void IsPingPong_ForNumberDivisibleByFifteen_true()
+    public void IsPingPong_ForNumberDivisibleByFifteen_ping_pong()
     {
       PingPong testPingPong = new PingPong();
-      Assert.Equal(true, testPingPong.IsPingPong(30));
+      Assert.Equal("ping-pong", testPingPong.IsPingPong(30));
     }
   }
 }
