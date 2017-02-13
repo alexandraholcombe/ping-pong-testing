@@ -21,5 +21,11 @@ namespace PingPong
       PingPong testPingPong = new PingPong();
       Assert.Equal("ping", testPingPong.IsPingPong(9));
     }
+    [Fact]
+    public void IsPingPong_ForNumber_number()
+    {
+      PingPong testPingPong = new PingPong();
+      Assert.Equal("1", testPingPong.IsPingPong(1));
+    }
   }
 }

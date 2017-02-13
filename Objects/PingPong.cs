@@ -16,7 +16,10 @@ namespace PingPong
       {
         return "ping";
       }
-      return null;
+      else
+      {
+        return number.ToString();
+      }
     }
   }
 }
