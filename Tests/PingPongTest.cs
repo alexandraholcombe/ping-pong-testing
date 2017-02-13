@@ -15,5 +15,11 @@ namespace PingPong
       PingPong testPingPong = new PingPong();
       Assert.Equal("pong", testPingPong.IsPingPong(20));
     }
+    [Fact]
+    public void IsPingPong_ForNumberDivisibleByThree_ping()
+    {
+      PingPong testPingPong = new PingPong();
+      Assert.Equal("ping", testPingPong.IsPingPong(9));
+    }
   }
 }

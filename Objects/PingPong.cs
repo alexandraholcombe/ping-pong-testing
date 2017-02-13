@@ -12,6 +12,10 @@ namespace PingPong
       {
         return "pong";
       }
+      else if (number % 3 == 0)
+      {
+        return "ping";
+      }
       return null;
     }
   }
