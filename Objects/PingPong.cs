@@ -8,6 +8,10 @@ namespace PingPong
       {
         return "ping-pong";
       }
+      else if (number % 5 == 0)
+      {
+        return "pong";
+      }
       return null;
     }
   }
